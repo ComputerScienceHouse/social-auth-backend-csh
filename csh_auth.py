@@ -1,7 +1,7 @@
 """
 Computer Science House OpenID Connect Backend for Python Social Auth
 """
-from social_core.backends.open_id_connect import OpenIdConnectAuth
+from social-auth-core.backends.open_id_connect import OpenIdConnectAuth
 
 
 class CSHAuth(OpenIdConnectAuth):

@@ -1,8 +1,17 @@
+#!/usr/bin/env python
+
+from setuptools import setup
+
+setup(
+    setup_requires=['pbr'],
+    pbr=True,
+)
+
 import os
 from setuptools import setup
 
 requirements = [
-    'social-core',
+    'social-auth-core',
 ]
 
 
